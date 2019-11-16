@@ -1,40 +1,63 @@
 * {
     box-sizing: border-box;
 }
+.welcome {
+   margin: 0 auto;
+   width: 20em;
+   height: 2em;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   background-color: hsl(0, 79%, 72%);
+}
 
 body {
     margin: 0 auto;
+    width: 100%;
     display: flex;
+    flex-flow: wrap;
+    
 }
 .allbody {
     flex-direction: column;
-    align-content: center;
+    justify-items: flex-end;
     border-radius: 10px;
     background-color: aquamarine;
     width: 30em;
     margin: 0 auto;
+    
 }
 
 h1 {
-   margin: 0 auto;
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+    margin: 0 auto;
+    
 }
 
 header {    
-    
+    margin: 0 auto;
+    background-color: magenta;  
 }
 
 section {
-     
+    margin: 0 auto;
+       
 }
 
 article {
+    margin: 0 auto;
+    
+}
+.foot {
+    margin: 0 auto;  
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+    background-color: lightseagreen;
     
 }
 
-footer {   
-    
+footer { 
+    width: 100%;
+    margin:  0 auto;
 }
