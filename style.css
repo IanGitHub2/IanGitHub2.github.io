@@ -12,7 +12,7 @@
 header .profile {
    margin-left: auto;
    margin-right: auto;
-   height: 16em;
+   height: 10em;
    display: block;
    border-radius: 100px;
 }
@@ -26,7 +26,7 @@ body {
 .pbody {
     border-radius: 10px;
     background-color: rgba(230, 230, 230, .5);
-    margin: 0 auto;
+    margin: 0 200px;
     display: flex;
    align-items: center;
    justify-content: center;
@@ -39,6 +39,9 @@ h1 {
     margin: 0 auto;
     
 }
+h5 {
+    font-size: 20px;
+}
 
 header {    
     margin: 0 auto;
@@ -46,26 +49,27 @@ header {
 }
 
 section {
-    margin: 0 auto;
-       
+    margin: 0px 300px;
+    background-color: rgba(230, 230, 230, .5);
+    border-radius: 5px;  
 }
 
 article {
-    margin: 0 auto;
+    margin: 0 130px;
     background-color: rgba(230, 230, 230, .5);
-    border-radius: 100px;
+    border-radius: 5px;
 }
 .project {
 
 }
 
 .foot {
-    margin: 0 auto;  
+    margin: 10px auto;  
     display: flex;
     flex-direction: column;
     flex-flow: wrap;
     justify-content: center;
-    background-color: lightseagreen;
+    background-color: rgba(230, 230, 230, .5);
     
 }
 
