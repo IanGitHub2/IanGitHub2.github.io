@@ -3,24 +3,35 @@
 }
 .welcome {
    margin: 0 auto;
+   font-size: 4em;
    width: 20em;
-   height: 2em;
+   color: hsla(0, 0%, 100%, .7);
    text-align: center;
-   display: flex;
-   justify-content: center;
-   background-color: hsl(0, 79%, 72%);
+   
+}
+header .profile {
+   margin-left: auto;
+   margin-right: auto;
+   height: 16em;
+   display: block;
+   border-radius: 100px;
 }
 
 body {
-    
+   background-image: url("https://images.pexels.com/photos/997443/pexels-photo-997443.jpeg?cs=srgb&dl=grayscale-photo-of-volcano-997443.jpg&fm=jpg");
+   background-repeat: no-repeat; 
+   background-position: center;
+   
 }
-.allbody {
-    flex-direction: column;
-    justify-items: flex-end;
+.pbody {
     border-radius: 10px;
-    background-color: aquamarine;
-    width: 30em;
+    background-color: rgba(230, 230, 230, .5);
     margin: 0 auto;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-flow: column wrap;
+   align-content: center;
     
 }
 
@@ -31,7 +42,7 @@ h1 {
 
 header {    
     margin: 0 auto;
-    background-color: magenta;  
+      
 }
 
 section {
@@ -41,8 +52,13 @@ section {
 
 article {
     margin: 0 auto;
-    
+    background-color: rgba(230, 230, 230, .5);
+    border-radius: 100px;
 }
+.project {
+
+}
+
 .foot {
     margin: 0 auto;  
     display: flex;
@@ -54,6 +70,5 @@ article {
 }
 
 footer { 
-    width: 100%;
-    margin:  0 auto;
+    
 }
